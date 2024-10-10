@@ -1,0 +1,36 @@
+
+GET todos los productos:
+
+URL: http://localhost:8080/api/productos
+Método: GET
+
+GET un producto por ID:
+
+URL: http://localhost:8080/api/productos/1
+Método: GET
+
+POST para agregar un producto:
+
+URL: http://localhost:8080/api/productos
+Método: POST
+body:
+{
+  "id": 3,
+  "descripcion": "Nuevo Producto",
+  "precio": 3000
+}
+
+PUT para actualizar un producto:
+
+URL: http://localhost:8080/api/productos/3
+Método: PUT
+body:
+{
+  "descripcion": "Producto Actualizado",
+  "precio": 35000
+}
+
+DELETE para eliminar un producto:
+
+URL: http://localhost:8080/api/productos/3
+Método: DELETE
